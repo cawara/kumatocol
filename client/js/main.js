@@ -269,8 +269,7 @@ window.onload = function() {
 				this.vY = -5;
 			}
 			if (input.down) {
-				ws.close(1000);
-				this.vY = 5;
+				// do nothing
 			}
 			this.interval++;
 
